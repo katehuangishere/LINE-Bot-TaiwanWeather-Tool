@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "taiwan-weather-tool-kh": "^1.0.1"
+  }
+}
