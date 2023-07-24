@@ -7,13 +7,15 @@ This is a LINE Bot built using Node.js, designed to provide weather information 
 ## 功能說明 Functionality
 此 LINE Bot 具備以下功能：  
 This LINE Bot offers the following features:
-- 當用戶傳送文字訊息給 LINE Bot 時，會觸發 Webhook 處理。
-- 使用者可以傳送台灣城市名稱，Bot 會回傳該城市的天氣資料，包括天氣狀況、感覺溫度、最高溫度、最低溫度和降雨機率。
+- 當用戶傳送文字訊息給 LINE Bot 時，會觸發 Webhook 處理。  
+When a user sends a text message to the LINE Bot, it triggers the Webhook for processing.
+![image](https://github.com/katehuangishere/LINE-Bot-TaiwanWeather-Tool/blob/main/1690202916612.jpg)
+- 使用者可以傳送台灣城市名稱，Bot 會回傳該城市的天氣資料，包括天氣狀況、感覺溫度、最高溫度、最低溫度和降雨機率。  
+Users can send the name of a city in Taiwan, and the Bot will respond with the weather information for that city, including weather conditions, perceived temperature, maximum temperature, minimum temperature, and precipitation chance.
+![image](https://github.com/katehuangishere/LINE-Bot-TaiwanWeather-Tool/blob/main/S_2506775.jpg)
 - 如果使用者輸入的城市名稱不在預設的城市清單內，Bot 會回傳錯誤訊息。  
-
-- When a user sends a text message to the LINE Bot, it triggers the Webhook for processing.
-- Users can send the name of a city in Taiwan, and the Bot will respond with the weather information for that city, including weather conditions, perceived temperature, maximum temperature, minimum temperature, and precipitation chance.
-- If the city name provided by the user is not in the predefined city list, the Bot will respond with an error message.
+If the city name provided by the user is not in the predefined city list, the Bot will respond with an error message.
+![image](https://github.com/katehuangishere/LINE-Bot-TaiwanWeather-Tool/blob/main/S_2506776.jpg)
 
 ## 城市清單 City List
 預設的城市清單包含以下城市：  
